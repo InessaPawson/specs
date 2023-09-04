@@ -79,7 +79,7 @@ requesting access. List the project you maintain and would like to upload nightl
 will reply to the issue and let you know what happens next.
 
 The work for step (2) depends on your project. You are probably already doing this for your
-releases. The part to remember is building wheels regularly, every night or at least
+releases. The part to remember is building wheels regularly, at least
 once a week.
 
 For step (3), consider using the following GitHub Action:
@@ -113,10 +113,10 @@ We wish to stay open to new projects uploading wheels with us. At the same time,
 perform some due diligence before giving access since approved projects gain the broad exposure 
 within the Scientific Python ecosystem. This could be abused by malicious actors.
 
-A project's selected representatives should each create an
+A project's chosen representatives should each create an
 account on https://anaconda.org and share their usernames with the
 admins of the Scientific Python organization on Anaconda.
-To increase resilience, we suggest that each project has at least two registered
+To increase resilience, we suggest that each project have at least two registered
 representatives.
 
 The representative can then generate a personal access token at
@@ -125,7 +125,7 @@ wheels. The token should only have the "Allow uploads to Standard Python reposit
 "Allow read access to the API site" and "Allow write access to the API site" scope.
 The creation of tokens at the organization level should be avoided for security reasons.
 
-The next step is submitting a first upload of a wheel to create the package listing on anaconda.org.
+The next step is to make an initial upload of a wheel to create the package listing on anaconda.org.
 Once this is complete, you can revoke your token and add the new user to its project.
 Each project should have at least one user who is also an admin of the project.
 
